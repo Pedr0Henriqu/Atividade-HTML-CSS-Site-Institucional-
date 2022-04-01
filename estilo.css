@@ -260,3 +260,63 @@ img{
     font-weight: 1000;
     font-size: 14px;
 }
+.equipe{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.equipe .container{
+    width: 80%;
+    height: 100%;
+}
+.primeira {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;  
+}
+.primeira img{
+    height: 200px;
+    width: 200px;
+}
+.segunda{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;  
+}
+.segunda img {
+    height: 200px;
+    width: 200px;
+}
+.equipe h4{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #32b9cd;
+}
+.equipe .botao_contato{
+    font-family: monospace;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0;
+    color: white;
+    background-color: #e6005a;
+    width: 120px;
+    align-self: center;
+    border: 2px solid #e6005a;
+    cursor: pointer;
+    height: 35px;
+    width: 200px;
+}
+.container .div_botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
