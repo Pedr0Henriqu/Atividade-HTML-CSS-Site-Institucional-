@@ -142,6 +142,7 @@ input{
 .botoes{
     display: flex;
     height: 80px; 
+    width: 100%;
 }
 .botoes_cadastro{
     display: flex;
@@ -256,13 +257,14 @@ img{
     display: flex;
     width: 170px;
     height: 0;
+    text-align: center;
     font-family: monospace;
     font-weight: 1000;
     font-size: 14px;
 }
 .equipe{
     width: 100%;
-    height: 600px;
+    height: 830px;
     background-color: black;
 }
 .equipe .container{
@@ -273,7 +275,7 @@ img{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 200px;  
+    height: 300px;  
 }
 .primeira img{
     height: 200px;
@@ -283,7 +285,7 @@ img{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 200px;  
+    height: 300px;  
 }
 .segunda img {
     height: 200px;
@@ -296,6 +298,12 @@ img{
     font-size: 36px;
     font-weight: 1000;
     color: #32b9cd;
+}
+.equipe p{
+    display: flex;
+    text-align: center;
+    color: #E3b062;
+    font-size: 18px;
 }
 .equipe .botao_contato{
     font-family: monospace;
@@ -312,6 +320,26 @@ img{
     cursor: pointer;
     height: 35px;
     width: 200px;
+}
+.primeira .card{
+    display: flex;
+    width: 250px;
+}
+.primeira .card2{
+    display: flex;
+    width: 250px;
+}
+.primeira .card3{
+    display: flex;
+    width: 250px;
+}
+.segunda .card{
+    display: flex;
+    width: 250px;
+}
+.segunda .card2{
+    display: flex;
+    width: 250px;
 }
 .container .div_botao {
     display: flex;
